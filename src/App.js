@@ -1,15 +1,21 @@
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Gallery from './components/Gallery';
+import Features from './components/Features';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <div className="box">
-        <h1 className="title">Hi, Saya John</h1>
-        <hr></hr>
-        <p className="paragraph">
-          Saya dari Kelas 12 sudah berhasil menginstall React
-        </p>
-      </div>
+      <Navbar />
+      <Header />
+      <Gallery />
+      <Features />
+      <Contact />
+      <Footer />
     </div>
   );
 }
