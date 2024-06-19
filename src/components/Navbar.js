@@ -4,15 +4,18 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">YOUR LOGO</div>
+      <div className="gallery-item">
+                <img src="" alt="Gallery Item" />
+            </div>
       <ul className="nav-links">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profil Sekolah</a></li>
+        <li><a href="#">Kemitraan</a></li>
+        <li><a href="#">Kontak</a></li>
       </ul>
     </nav>
   );
 }
 
 export default Navbar;
+

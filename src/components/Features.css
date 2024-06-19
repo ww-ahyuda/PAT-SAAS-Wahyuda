@@ -1,9 +1,103 @@
 .features {
-    padding: 2rem;
-    background-color: #e9ecef;
-  }
-  
-  .feature {
-    margin-bottom: 1rem;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.feature-item {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+.feature-img {
+  width: 100%;
+  height: auto;
+}
+
+.image-section {
+  width: 28%; /* Adjust the width to make it larger */
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.contact-form-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.profile-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.contact-form input, .contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}

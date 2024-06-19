@@ -1,11 +1,21 @@
 .gallery {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    background-color: #f8f9fa;
-  }
-  
-  .gallery-item {
-    width: 30%;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-text {
+  text-align: center;
+  margin-top: 5px;
+}
